@@ -17,9 +17,9 @@ async def spam(client: Client, message: types.Message):
     if "Собеседник найден 😺" in message.text:
         #await app.send_message(chat_id,text)
         await app.send_sticker(chat_id,"CAACAgIAAxkBAAEHabtjz9yi9SCOxWiI0WB5-KUxs5ARVQAC5ygAAlqzgUrc1w118xlZ8y0E")
-        if 'Собеседник найден 😺' in message.raw_text:
         sleep(2)
-        await app.send_message(chat_id,"/stop")
-        sleep(1)
-        await app.send_message(chat_id,"🚀 Поиск любого собеседника")
+        if 'Собеседник найден 😺' in message.raw_text:
+            await app.send_message(chat_id,"/stop")
+            sleep(1)
+            await app.send_message(chat_id,"🚀 Поиск любого собеседника")
 app.run()
