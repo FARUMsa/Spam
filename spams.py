@@ -29,4 +29,4 @@ async def spam(client: Client, message: types.Message):
 
 app.run() # Что бы начать спам просто начнаем поиск в чате где хотим спамить
 
-#Spamer by anon_chats by FARUM
+#Spamer by anon_chats from FARUM
