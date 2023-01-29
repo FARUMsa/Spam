@@ -4,7 +4,7 @@ from PIL import Image
 import re
 import asyncio
 
-app = Client('session', api_id=9470354, api_hash='09583bf3a3bf5f4824fb68faa8f61dad') # Вместо api_id и api_hash подставляем свои данные с https://my.telegram.org/auth
+app = Client('session', api_id=, api_hash='') # после ровно в api_id и api_hash подставляем свои данные с https://my.telegram.org/auth
 
 chat_id = "@AnonRuBot" #Сюда айди чата
 
